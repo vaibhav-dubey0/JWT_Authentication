@@ -1,5 +1,7 @@
 package com.example.jwt_authentication;
 
+
+
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -14,7 +16,8 @@ import lombok.ToString;
 public class User {
      
     
-    private int id;
+    private String id;
     private String name;
-    
+    private String email;
+  
 }
